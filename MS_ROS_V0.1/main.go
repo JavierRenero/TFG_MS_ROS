@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"log"
 	"net/http"
 
@@ -9,10 +8,10 @@ import (
 	"github.com/gorilla/mux"
 )
 
-func handleIndex(w http.ResponseWriter, r *http.Request) {
+/* func handleIndex(w http.ResponseWriter, r *http.Request) {
 
 	json.NewEncoder(w).Encode("{\"message\": \"Hello World\"}")
-}
+} */
 
 func main() {
 
@@ -23,8 +22,6 @@ func main() {
 
 	// register the routes
 	a.RegisterRoutes(r)
-
-	r.HandleFunc("/", handleIndex).Methods(http.MethodGet)
 
 	srv := &http.Server{
 		Addr:    ":8080",

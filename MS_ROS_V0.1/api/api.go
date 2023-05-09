@@ -2,8 +2,11 @@ package api
 
 import (
 	"encoding/json"
+	"fmt"
+	"io/ioutil"
 	"net/http"
 	"strconv"
+	"strings"
 
 	"github.com/gorilla/mux"
 	"github.com/gorilla/schema"
@@ -95,4 +98,43 @@ func (a *API) postBook(m http.ResponseWriter, r *http.Request) {
 	books = append(books, book.Title)
 
 	m.WriteHeader(http.StatusCreated)
+}
+
+func (a *API) handleIndex(w http.ResponseWriter, r *http.Request) {
+
+	json.NewEncoder(w).Encode("Message ERROR: You need to specify a valid endpoint")
+	w.WriteHeader(http.StatusBadRequest)
+}
+
+func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
+	vars := mux.Vars(r)
+	id := vars["id"]
+
+	// Set up the HTTP request to send to the ROS 2 micro-service
+	url := "http://localhost:5000/battery"
+	payload := strings.NewReader(fmt.Sprintf(`{"id": "%s"}`, id))
+
+	req, err := http.NewRequest("POST", url, payload)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	req.Header.Set("Content-Type", "application/json")
+
+	// Send the HTTP request and get the response
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer res.Body.Close()
+
+	// Read the response body and send it back to the client
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	fmt.Fprintf(w, string(body))
 }
