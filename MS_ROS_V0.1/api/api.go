@@ -135,6 +135,6 @@ func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-
-	fmt.Fprintf(w, string(body))
+	json.NewEncoder(w).Encode(fmt.Sprintf(`"id": "%s","battery": "%s"`, id, body))
+	//fmt.Fprintf(w, string(body))
 }
