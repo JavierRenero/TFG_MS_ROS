@@ -1,0 +1,57 @@
+[0.021s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/turtlebot3_ws/install/turtlebot3_teleop:/home/triqui/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces
+[0.043s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.313s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.323s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.329s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.333s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.807s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.807s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.807s]   pkg_interfaces --arguments-file
+[0.807s]   /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_adapter__arguments__pkg_interfaces.json
+[0.807s]   --output-dir
+[0.807s]   /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_adapter/pkg_interfaces
+[0.807s]   --output-file
+[0.807s]   /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_adapter/pkg_interfaces.idls)
+[0.807s]   returned error code 1:
+[0.808s] 
+[0.808s]   /usr/lib/python3/dist-packages/requests/__init__.py:89:
+[0.808s]   RequestsDependencyWarning: urllib3 (2.0.2) or chardet (3.0.4) doesn't match
+[0.808s]   a supported version!
+[0.808s] 
+[0.808s]     warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+[0.808s] 
+[0.808s]   Traceback (most recent call last):
+[0.808s] 
+[0.808s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.809s]       return _run_code(code, main_globals, None,
+[0.809s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.809s]       exec(code, run_globals)
+[0.809s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.809s]       sys.exit(main())
+[0.809s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.809s]       abs_idl_file = convert_to_idl(
+[0.809s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.809s]       return convert_msg_to_idl(
+[0.809s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.809s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.810s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[0.810s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.810s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[0.810s]       self.base_type = BaseType(
+[0.810s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[0.810s]       raise InvalidResourceName(
+[0.810s] 
+[0.810s]   rosidl_adapter.parser.InvalidResourceName: 'Battery_lvl' is an invalid
+[0.810s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.810s] 
+[0.810s] Call Stack (most recent call first):
+[0.810s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.810s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.810s] 
+[0.810s] 
+[0.811s] -- Configuring incomplete, errors occurred!
+[0.811s] See also "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/CMakeFiles/CMakeOutput.log".
+[0.818s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/turtlebot3_ws/install/turtlebot3_teleop:/home/triqui/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces

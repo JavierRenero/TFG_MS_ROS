@@ -1,0 +1,20 @@
+[0.015s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/turtlebot3_ws/install/turtlebot3_teleop:/home/triqui/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces
+[0.037s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.077s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.077s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.316s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.334s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.554s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.554s]   rosidl_generate_interfaces() the passed file 'msg/battery_lvl.msg' doesn't
+[0.554s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.554s]   '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces'
+[0.554s] Call Stack (most recent call first):
+[0.554s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[0.554s] 
+[0.554s] 
+[0.555s] -- Configuring incomplete, errors occurred!
+[0.556s] See also "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/CMakeFiles/CMakeOutput.log".
+[0.563s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/turtlebot3_ws/install/turtlebot3_teleop:/home/triqui/turtlebot3_ws/install/turtlebot3_example:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces

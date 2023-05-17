@@ -1,0 +1,39 @@
+[0.730s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/my_battery_package': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_battery_package build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/install.log --install-scripts $base/lib/my_battery_package --single-version-externally-managed
+[0.965s] running egg_info
+[0.965s] creating ../../build/my_battery_package/my_battery_package.egg-info
+[0.966s] writing ../../build/my_battery_package/my_battery_package.egg-info/PKG-INFO
+[0.966s] writing dependency_links to ../../build/my_battery_package/my_battery_package.egg-info/dependency_links.txt
+[0.966s] writing entry points to ../../build/my_battery_package/my_battery_package.egg-info/entry_points.txt
+[0.966s] writing requirements to ../../build/my_battery_package/my_battery_package.egg-info/requires.txt
+[0.966s] writing top-level names to ../../build/my_battery_package/my_battery_package.egg-info/top_level.txt
+[0.969s] writing manifest file '../../build/my_battery_package/my_battery_package.egg-info/SOURCES.txt'
+[1.001s] reading manifest file '../../build/my_battery_package/my_battery_package.egg-info/SOURCES.txt'
+[1.002s] writing manifest file '../../build/my_battery_package/my_battery_package.egg-info/SOURCES.txt'
+[1.002s] running build
+[1.003s] running build_py
+[1.003s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build
+[1.003s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib
+[1.003s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package
+[1.003s] copying my_battery_package/battery_subscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package
+[1.003s] copying my_battery_package/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package
+[1.003s] copying my_battery_package/battery_publisher.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package
+[1.003s] running install
+[1.004s] running install_lib
+[1.005s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package
+[1.005s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package/battery_subscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package
+[1.005s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package
+[1.006s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build/lib/my_battery_package/battery_publisher.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package
+[1.006s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package/battery_subscriber.py to battery_subscriber.cpython-38.pyc
+[1.007s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package/__init__.py to __init__.cpython-38.pyc
+[1.007s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package/battery_publisher.py to battery_publisher.cpython-38.pyc
+[1.008s] running install_data
+[1.008s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/share/ament_index
+[1.009s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/share/ament_index/resource_index
+[1.009s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/share/ament_index/resource_index/packages
+[1.009s] copying resource/my_battery_package -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/share/ament_index/resource_index/packages
+[1.009s] copying package.xml -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/share/my_battery_package
+[1.009s] running install_egg_info
+[1.010s] Copying ../../build/my_battery_package/my_battery_package.egg-info to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages/my_battery_package-0.0.0-py3.8.egg-info
+[1.011s] running install_scripts
+[1.029s] writing list of installed files to '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/install.log'
+[1.050s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/my_battery_package' returned '0': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_battery_package build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/my_battery_package/install.log --install-scripts $base/lib/my_battery_package --single-version-externally-managed

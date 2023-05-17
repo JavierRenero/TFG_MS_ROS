@@ -1,0 +1,6 @@
+{
+  "package_name": "pkg_interfaces",
+  "non_idl_tuples": [
+    "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces:msg/Battery_lvl.msg"
+  ]
+}
