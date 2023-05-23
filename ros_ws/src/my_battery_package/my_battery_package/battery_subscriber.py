@@ -5,43 +5,14 @@ import threading
 from flask import Flask, jsonify, request, json
 import signal
 
-#global iRobot
 
 class BatterySubscriber(Node):
     def __init__(self):
         super().__init__("battery_subscriber")
-        """ #self.get_logger().info(str(iRobot))
-        if self.iRobot is not "No data":
-            self.get_logger().info("Subscribing to battery_topic_" + self.iRobot)
-            self.subscription_ = self.create_subscription(
-                Batterylvl, "battery_topic_" + self.iRobot, self.receive_battery_level, 10
-            )
-        else: """
-        self.subscription_ = self.create_subscription(
-                Batterylvl, "battery_topic_8LJ9", self.receive_battery_level, 10
-            )
         self.battery_level = "No data"
-
+   
     def receive_battery_level(self, msg):
         self.battery_level = msg.level
-
-
-def ros2_thread(node):
-    print("entering ros2 thread\n")
-    rclpy.spin(node)
-    print("\nleaving ros2 thread")
-
-
-def sigint_handler(signal, frame):
-    # SIGINT handler
-    rclpy.shutdown()
-    if prev_sigint_handler is not None:
-        prev_sigint_handler(signal)
-
-rclpy.init(args=None)
-ros2_node = BatterySubscriber()
-threading.Thread(target=ros2_thread, args=[ros2_node]).start()
-prev_sigint_handler = signal.signal(signal.SIGINT, sigint_handler)
 
 app = Flask(__name__)
 
@@ -50,14 +21,27 @@ app = Flask(__name__)
 def get_battery_level():
     try:
         # Clear the request body
-        #   request.data = None
+        request.data = None
         # Retrieve the variable from the query parameters
-        # variable = request.args.get("idRob")
-        # ros2_node.get_logger().info("Received request for battery level of robot " + variable)
-        # app.logger.info(type(variable))
-        # ros2_node.iRobot = variable
-        # Return your response
-        return jsonify({"battery_level": str(ros2_node.battery_level)})
+        variable = request.args.get("idRob")
+        # Initialize the ROS node
+        rclpy.init(args=None)
+        # Create the ROS2 node
+        ros2_node = BatterySubscriber()
+        # Create the ROS2 subscription
+        ros2_node.create_subscription(
+            Batterylvl(), "battery_topic_" + variable, ros2_node.receive_battery_level, 10
+        )
+        # respin the node once to get the battery level
+        rclpy.spin_once(ros2_node) 
+        # save the response in a variable
+        response = jsonify({"battery_level": str(ros2_node.battery_level)})
+
+        # Clean up and exit the node and ROS int
+        ros2_node.destroy_node()
+        rclpy.shutdown()
+
+        return response
 
     except KeyError:
         return "Missing 'idRob' field in the query param", 400

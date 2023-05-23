@@ -137,12 +137,12 @@ func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
 	var batteryResp BatteryResponse
 	err = json.Unmarshal(body, &batteryResp)
 	if err != nil {
-		http.Error(w, err.Error()+"GOPI", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 
 	if strings.Compare(batteryResp.Level, "No data") == 0 {
-		http.Error(w, "No data", http.StatusNotFound)
+		http.Error(w, "No data, So publiser Not Availeble", http.StatusNotFound)
 		return
 	}
 

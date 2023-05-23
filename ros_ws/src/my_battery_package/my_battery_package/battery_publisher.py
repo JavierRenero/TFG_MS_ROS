@@ -15,8 +15,6 @@ class BatteryPublisher(Node):
 
     def publish_battery_level(self):
         msg = Batterylvl()
-        # if msg.lvl == 0 :
-        #     self.battery_level_ = random.randint(0, 100)
         msg.level = random.randint(0, 100)
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%d"' % msg.level)
