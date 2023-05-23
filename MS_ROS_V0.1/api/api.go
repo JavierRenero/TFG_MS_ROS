@@ -5,38 +5,35 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
-	"strconv"
 	"strings"
-
-	"github.com/gorilla/mux"
-	"github.com/gorilla/schema"
 )
 
 type API struct{}
 
-type postBook struct {
+/* type postBook struct {
 	Title string `json:"title"`
+} */
+
+type robotId struct {
+	IdRob string `json:"id"`
 }
 
-type BookParams struct {
+/* type BookParams struct {
 	Offset int `schema:"offset"`
 	Limit  int `schema:"limit"`
-}
+} */
 
-var (
+/*var (
 	books   = []string{"book1", "book2", "book3", "book4", "book5"}
 	decoder = schema.NewDecoder()
-)
+)*/
 
-func (a *API) getBooks(m http.ResponseWriter, r *http.Request) {
+/* func (a *API) getBooks(m http.ResponseWriter, r *http.Request) {
 
 	params := &BookParams{}
 
 	err := decoder.Decode(params, r.URL.Query())
 
-	/* 	limitParam := r.URL.Query().Get("limit")
-
-	   	limit, err := strconv.Atoi(limitParam)*/
 	if err != nil {
 		m.WriteHeader(http.StatusBadRequest)
 		return
@@ -98,7 +95,7 @@ func (a *API) postBook(m http.ResponseWriter, r *http.Request) {
 	books = append(books, book.Title)
 
 	m.WriteHeader(http.StatusCreated)
-}
+} */
 
 func (a *API) handleIndex(w http.ResponseWriter, r *http.Request) {
 
@@ -107,34 +104,58 @@ func (a *API) handleIndex(w http.ResponseWriter, r *http.Request) {
 }
 
 func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
-	vars := mux.Vars(r)
-	id := vars["id"]
+	params := &robotId{}
+
+	err := json.NewDecoder(r.Body).Decode(params)
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		return
+	}
 
 	// Set up the HTTP request to send to the ROS 2 micro-service
-	url := "http://localhost:5000/battery"
-	payload := strings.NewReader(fmt.Sprintf(`{"id": "%s"}`, id))
+	url := "http://127.0.0.1:5000/battery"
+	// Create the complete URL with the query parameter
+	urlWithParams := fmt.Sprintf("%s?idRob=%s", url, params.IdRob)
 
-	req, err := http.NewRequest("POST", url, payload)
+	req, err := http.Get(urlWithParams)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	req.Header.Set("Content-Type", "application/json")
-
-	// Send the HTTP request and get the response
-	res, err := http.DefaultClient.Do(req)
+	defer req.Body.Close()
+	body, err := ioutil.ReadAll(req.Body)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
-	defer res.Body.Close()
+	// Define a struct to extract the battery level from the JSON response
+	type BatteryResponse struct {
+		Level string `json:"battery_level"`
+	}
 
-	// Read the response body and send it back to the client
-	body, err := ioutil.ReadAll(res.Body)
+	// Unmarshal the JSON response into the struct
+	var batteryResp BatteryResponse
+	err = json.Unmarshal(body, &batteryResp)
 	if err != nil {
-		http.Error(w, err.Error(), http.StatusInternalServerError)
+		http.Error(w, err.Error()+"GOPI", http.StatusInternalServerError)
 		return
 	}
-	json.NewEncoder(w).Encode(fmt.Sprintf(`"id": "%s","battery": "%s"`, id, body))
-	//fmt.Fprintf(w, string(body))
+
+	if strings.Compare(batteryResp.Level, "No data") == 0 {
+		http.Error(w, "No data", http.StatusNotFound)
+		return
+	}
+
+	response := struct {
+		ID           string `json:"id"`
+		BatteryLevel string `json:"battery_level"`
+	}{
+		ID:           params.IdRob,
+		BatteryLevel: batteryResp.Level,
+	}
+
+	// Set the response content type to JSON
+	w.Header().Set("Content-Type", "application/json")
+	// Encode the response struct as JSON and write it to the response writer
+	json.NewEncoder(w).Encode(response)
 }

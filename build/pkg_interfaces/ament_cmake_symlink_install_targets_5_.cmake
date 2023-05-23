@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/triqui/Documents/TFG/TFG_MS_ROS/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/libpkg_interfaces__python.so" "TARGETS" "pkg_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

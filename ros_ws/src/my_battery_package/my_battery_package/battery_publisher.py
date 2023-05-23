@@ -1,32 +1,37 @@
+import random
 import rclpy
-import requests
+
+# import requests
 from rclpy.node import Node
-from Battery_lvl.msg import battery_lvl
+from pkg_interfaces.msg import Batterylvl
+import signal
+
 
 class BatteryPublisher(Node):
     def __init__(self):
-        super().__init__('battery_publisher')
-        self.publisher_ = self.create_publisher(battery_lvl, 'battery_topic', 10)
+        super().__init__("battery_publisher")
+        self.publisher_ = self.create_publisher(Batterylvl, "battery_topic_8LJ9", 10)
         self.timer_ = self.create_timer(1.0, self.publish_battery_level)
-        self.battery_level_ = 0
 
     def publish_battery_level(self):
-        msg = battery_lvl()
-        msg.level = self.battery_level_
+        msg = Batterylvl()
+        # if msg.lvl == 0 :
+        #     self.battery_level_ = random.randint(0, 100)
+        msg.level = random.randint(0, 100)
         self.publisher_.publish(msg)
-        self.battery_level_ += 1
-        if self.battery_level_ > 100:
-            self.battery_level_ = 0
-
-        #requests.post('http://localhost:5000/battery')
+        self.get_logger().info('Publishing: "%d"' % msg.level)
 
 
 def main(args=None):
-    rclpy.init(args=args)
-    publisher = BatteryPublisher()
-    rclpy.spin(publisher)
-    publisher.destroy_node()
-    rclpy.shutdown()
+    try:
+        rclpy.init(args=args)
+        publisher = BatteryPublisher()
+        rclpy.spin(publisher)
+        publisher.destroy_node()
+        rclpy.shutdown()
+    except KeyboardInterrupt:
+        print("\nKeyboard interrupt detected, exiting...")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

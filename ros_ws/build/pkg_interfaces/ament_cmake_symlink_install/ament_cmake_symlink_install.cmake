@@ -309,3 +309,129 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/rosidl_interfaces")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.h")
+
+# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_fastrtps_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_fastrtps_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install("TARGETS" "pkg_interfaces__rosidl_typesupport_fastrtps_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_fastrtps_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN_EXCLUDE" "*.cpp")
+
+# install("TARGETS" "pkg_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_introspection_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.h")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_introspection_c/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.h")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.hpp")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_introspection_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.hpp")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_typesupport_introspection_cpp/pkg_interfaces/" "DESTINATION" "include/pkg_interfaces" "PATTERN" "*.hpp")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/pythonpath.sh" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/pythonpath.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/__init__.py" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/__init__.py" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces")
+
+# install(DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/msg/" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces/msg" "PATTERN" "*.py")
+ament_cmake_symlink_install_directory("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" DIRECTORY "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_py/pkg_interfaces/msg/" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces/msg" "PATTERN" "*.py")
+
+# install("TARGETS" "pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "pkg_interfaces__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "pkg_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/pkg_interfaces")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_4_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "pkg_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+include("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_symlink_install_targets_5_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/msg/Batterylvl.idl" "DESTINATION" "share/pkg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_adapter/pkg_interfaces/msg/Batterylvl.idl" "DESTINATION" "share/pkg_interfaces/msg")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces/msg/Batterylvl.msg" "DESTINATION" "share/pkg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces/msg/Batterylvl.msg" "DESTINATION" "share/pkg_interfaces/msg")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/pkg_interfaces/environment")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/pkg_interfaces")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/pkg_interfaces")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/pkg_interfaces")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/pkg_interfaces")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/pkg_interfaces")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_index/share/ament_index/resource_index/packages/pkg_interfaces" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_core/pkg_interfacesConfig.cmake" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_core/pkg_interfacesConfig-version.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_core/pkg_interfacesConfig.cmake" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/ament_cmake_core/pkg_interfacesConfig-version.cmake" "DESTINATION" "share/pkg_interfaces/cmake")
+
+# install(FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces/package.xml" "DESTINATION" "share/pkg_interfaces")
+ament_cmake_symlink_install_files("/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces" FILES "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces/package.xml" "DESTINATION" "share/pkg_interfaces")

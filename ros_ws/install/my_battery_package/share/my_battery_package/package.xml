@@ -9,9 +9,12 @@
 
 
   <exec_depend>rclpy</exec_depend>
+  <exec_depend>signal</exec_depend>
+  <exec_depend>threading</exec_depend>
+  <exec_depend>flask</exec_depend>
+  <exec_depend>random</exec_depend>
   <exec_depend>std_msgs</exec_depend>
-  <exec_depend>BatteryLevel</exec_depend>
-  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pkg_interfaces</exec_depend>
 
 
   <test_depend>ament_copyright</test_depend>
@@ -19,9 +22,6 @@
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
 
-  <buildtool_depend>rosidl_default_generators</buildtool_depend>
-  <exec_depend>rosidl_default_runtime</exec_depend>
-  <member_of_group>rosidl_interface_packages</member_of_group>
   <export>
     <build_type>ament_python</build_type>
   </export>

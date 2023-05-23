@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "pkg_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/triqui/Documents/TFG/TFG_MS_ROS/build/pkg_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "pkg_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces-Debug-e327f2c2052042138270.json",
+					"name" : "pkg_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__cpp-Debug-521cc889b55d5830362c.json",
+					"name" : "pkg_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pkg_interfaces__py::@7375598c818233330f74",
+					"jsonFile" : "target-pkg_interfaces__py-Debug-09fa71de0f138d343170.json",
+					"name" : "pkg_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__python-Debug-769664423a7ac49d8aeb.json",
+					"name" : "pkg_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_generator_c-Debug-aaccec9b80ad110bb059.json",
+					"name" : "pkg_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_c-Debug-cd17e3bc085acc40b1f9.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_c__pyext-Debug-1ac070b054303b9ff8c6.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_cpp-Debug-6ce130f19f4a58f60e8f.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_fastrtps_c-Debug-43a4db3e56786f2baa17.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext-Debug-1cc60eb22889cfd48103.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_fastrtps_cpp-Debug-342cf96437d608f81628.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_introspection_c-Debug-79e9fac2084dfeedbbc3.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_introspection_c__pyext-Debug-9740dc16454802faf48d.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces__rosidl_typesupport_introspection_cpp-Debug-cdc587b61d02984a9c51.json",
+					"name" : "pkg_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg_interfaces_uninstall-Debug-a1fe18f42a435f2f151e.json",
+					"name" : "pkg_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-2b5552283419d6cb7dac.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/triqui/Documents/TFG/TFG_MS_ROS/build",
+		"source" : "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/pkg_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

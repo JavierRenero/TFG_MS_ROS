@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "pkg_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
