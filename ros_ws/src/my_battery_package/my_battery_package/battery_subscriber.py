@@ -1,9 +1,8 @@
 import rclpy
 from rclpy.node import Node
 from pkg_interfaces.msg import Batterylvl
-import threading
 from flask import Flask, jsonify, request, json
-import signal
+
 
 
 class BatterySubscriber(Node):
