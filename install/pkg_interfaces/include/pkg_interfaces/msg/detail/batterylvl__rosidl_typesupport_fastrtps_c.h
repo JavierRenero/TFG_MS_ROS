@@ -1,1 +1,0 @@
-/home/triqui/Documents/TFG/TFG_MS_ROS/build/pkg_interfaces/rosidl_typesupport_fastrtps_c/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_fastrtps_c.h

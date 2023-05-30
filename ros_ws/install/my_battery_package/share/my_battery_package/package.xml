@@ -7,15 +7,9 @@
   <maintainer email="jreneb00@estudiantes.unileon.es">triqui</maintainer>
   <license>Apache License 2.0</license>
 
-
   <exec_depend>rclpy</exec_depend>
-  <exec_depend>signal</exec_depend>
-  <exec_depend>threading</exec_depend>
-  <exec_depend>flask</exec_depend>
-  <exec_depend>random</exec_depend>
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>pkg_interfaces</exec_depend>
-
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

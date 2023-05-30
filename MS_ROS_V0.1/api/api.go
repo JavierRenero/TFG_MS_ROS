@@ -8,7 +8,9 @@ import (
 	"strings"
 )
 
-type API struct{}
+type API struct {
+	allPages []string
+}
 
 /* type postBook struct {
 	Title string `json:"title"`
@@ -98,12 +100,74 @@ func (a *API) postBook(m http.ResponseWriter, r *http.Request) {
 } */
 
 func (a *API) handleIndex(w http.ResponseWriter, r *http.Request) {
-
 	json.NewEncoder(w).Encode("Message ERROR: You need to specify a valid endpoint")
 	w.WriteHeader(http.StatusBadRequest)
 }
 
+func (a *API) getDiscover(w http.ResponseWriter, r *http.Request) {
+
+	json.NewEncoder(w).Encode(a.allPages)
+
+}
+
 func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
+	params := &robotId{}
+
+	err := json.NewDecoder(r.Body).Decode(params)
+	if err != nil {
+		w.WriteHeader(http.StatusBadRequest)
+		return
+	}
+
+	// Set up the HTTP request to send to the ROS 2 micro-service
+	url := "http://127.0.0.1:5000/battery"
+	// Create the complete URL with the query parameter
+	urlWithParams := fmt.Sprintf("%s?idRob=%s", url, params.IdRob)
+
+	req, err := http.Get(urlWithParams)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	defer req.Body.Close()
+	body, err := ioutil.ReadAll(req.Body)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+	// Define a struct to extract the battery level from the JSON response
+	type BatteryResponse struct {
+		Level string `json:"battery_level"`
+	}
+
+	// Unmarshal the JSON response into the struct
+	var batteryResp BatteryResponse
+	err = json.Unmarshal(body, &batteryResp)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusInternalServerError)
+		return
+	}
+
+	if strings.Compare(batteryResp.Level, "No data") == 0 {
+		http.Error(w, "No data, So publiser Not Availeble", http.StatusNotFound)
+		return
+	}
+
+	response := struct {
+		ID           string `json:"id"`
+		BatteryLevel string `json:"battery_level"`
+	}{
+		ID:           params.IdRob,
+		BatteryLevel: batteryResp.Level,
+	}
+
+	// Set the response content type to JSON
+	w.Header().Set("Content-Type", "application/json")
+	// Encode the response struct as JSON and write it to the response writer
+	json.NewEncoder(w).Encode(response)
+}
+
+func (a *API) getOdom(w http.ResponseWriter, r *http.Request) {
 	params := &robotId{}
 
 	err := json.NewDecoder(r.Body).Decode(params)
