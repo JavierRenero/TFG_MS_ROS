@@ -1,0 +1,19 @@
+[0.957s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build --no-deps install_data
+[1.309s] running develop
+[1.500s] running egg_info
+[1.500s] writing rover_motor_controller.egg-info/PKG-INFO
+[1.500s] writing dependency_links to rover_motor_controller.egg-info/dependency_links.txt
+[1.500s] writing entry points to rover_motor_controller.egg-info/entry_points.txt
+[1.500s] writing requirements to rover_motor_controller.egg-info/requires.txt
+[1.500s] writing top-level names to rover_motor_controller.egg-info/top_level.txt
+[1.546s] reading manifest file 'rover_motor_controller.egg-info/SOURCES.txt'
+[1.551s] writing manifest file 'rover_motor_controller.egg-info/SOURCES.txt'
+[1.589s] running build_ext
+[1.590s] Creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/site.py
+[1.595s] Creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover-motor-controller.egg-link (link to .)
+[1.597s] Installing controller_node script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/rover_motor_controller
+[1.598s] Installing vel_parser_node script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/rover_motor_controller
+[1.600s] 
+[1.600s] Installed /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller
+[1.601s] running install_data
+[1.651s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller' returned '0': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build --no-deps install_data

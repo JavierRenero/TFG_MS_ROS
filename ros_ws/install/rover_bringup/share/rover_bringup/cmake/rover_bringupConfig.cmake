@@ -1,0 +1,1 @@
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_bringup/ament_cmake_core/rover_bringupConfig.cmake

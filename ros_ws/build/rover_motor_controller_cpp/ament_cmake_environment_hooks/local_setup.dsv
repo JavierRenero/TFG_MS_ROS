@@ -1,0 +1,2 @@
+source;share/rover_motor_controller_cpp/environment/ament_prefix_path.sh
+source;share/rover_motor_controller_cpp/environment/path.sh

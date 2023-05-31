@@ -1,0 +1,11 @@
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/install/strip.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/install/local.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/edit_cache.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/test.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/vel_parser_node.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/controller_node.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/install.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/list_install_components.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/rebuild_cache.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/rover_motor_controller_cpp_uninstall.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/CMakeFiles/uninstall.dir

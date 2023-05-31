@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/motors_command_parser_node" "TARGETS" "motors_command_parser_node" "DESTINATION" "lib/rover_gazebo")

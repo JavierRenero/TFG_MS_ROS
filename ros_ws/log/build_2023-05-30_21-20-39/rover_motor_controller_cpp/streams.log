@@ -1,0 +1,93 @@
+[0.056s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp
+[0.282s] -- The C compiler identification is GNU 9.4.0
+[0.415s] -- The CXX compiler identification is GNU 9.4.0
+[0.417s] -- Check for working C compiler: /usr/bin/cc
+[0.622s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.622s] -- Detecting C compiler ABI info
+[0.906s] -- Detecting C compiler ABI info - done
+[0.932s] -- Detecting C compile features
+[0.933s] -- Detecting C compile features - done
+[0.940s] -- Check for working CXX compiler: /usr/bin/c++
+[1.213s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.218s] -- Detecting CXX compiler ABI info
+[1.448s] -- Detecting CXX compiler ABI info - done
+[1.467s] -- Detecting CXX compile features
+[1.468s] -- Detecting CXX compile features - done
+[1.473s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.513s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.514s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.842s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.933s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.304s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.647s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.650s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.656s] -- Looking for pthread.h
+[2.932s] -- Looking for pthread.h - found
+[2.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.293s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.294s] -- Looking for pthread_create in pthreads
+[3.557s] -- Looking for pthread_create in pthreads - not found
+[3.557s] -- Looking for pthread_create in pthread
+[3.920s] -- Looking for pthread_create in pthread - found
+[3.920s] -- Found Threads: TRUE  
+[4.260s] -- Found rover_msgs: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake)
+[4.285s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.405s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.509s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.514s] -- Configured cppcheck include dirs: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_motor_controller_cpp/include
+[4.514s] -- Configured cppcheck exclude dirs and/or files: 
+[4.517s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.517s] -- Configured cpplint exclude dirs and/or files: 
+[4.519s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.520s] -- Added test 'lint_cmake' to check CMake code style
+[4.521s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.524s] -- Added test 'uncrustify' to check C / C++ code style
+[4.524s] -- Configured uncrustify additional arguments: 
+[4.526s] -- Added test 'xmllint' to check XML markup files
+[4.533s] -- Configuring done
+[4.567s] -- Generating done
+[4.569s] -- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp
+[4.679s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_motor_controller_cpp -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp
+[4.680s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp -- -j4 -l4
+[5.101s] [35m[1mScanning dependencies of target controller_node[0m
+[5.101s] [35m[1mScanning dependencies of target vel_parser_node[0m
+[5.102s] [ 11%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/vel_parser_node_main.cpp.o[0m
+[5.102s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node_main.cpp.o[0m
+[5.102s] [ 33%] [32mBuilding CXX object CMakeFiles/vel_parser_node.dir/src/motor_controller/vel_parser_node.cpp.o[0m
+[5.102s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/serial.cpp.o[0m
+[9.337s] [ 55%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/lx16a.cpp.o[0m
+[10.583s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/lx16a/motor_controller.cpp.o[0m
+[10.696s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/motor_controller/controller_node.cpp.o[0m
+[14.068s] [ 88%] [32m[1mLinking CXX executable vel_parser_node[0m
+[14.404s] [ 88%] Built target vel_parser_node
+[18.104s] [100%] [32m[1mLinking CXX executable controller_node[0m
+[18.498s] [100%] Built target controller_node
+[18.511s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp -- -j4 -l4
+[18.561s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp
+[18.570s] -- Install configuration: ""
+[18.571s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node
+[18.574s] -- Set runtime path of "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/controller_node" to ""
+[18.574s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node
+[18.577s] -- Set runtime path of "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/lib/rover_motor_controller_cpp/vel_parser_node" to ""
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp//launch/motor_controller.launch.py
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/ament_index/resource_index/package_run_dependencies/rover_motor_controller_cpp
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/ament_index/resource_index/parent_prefix_path/rover_motor_controller_cpp
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.sh
+[18.577s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/ament_prefix_path.dsv
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.sh
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/environment/path.dsv
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.bash
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.sh
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.zsh
+[18.578s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/local_setup.dsv
+[18.579s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.dsv
+[18.579s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/ament_index/resource_index/packages/rover_motor_controller_cpp
+[18.579s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig.cmake
+[18.579s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake/rover_motor_controller_cppConfig-version.cmake
+[18.579s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/package.xml
+[18.586s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp

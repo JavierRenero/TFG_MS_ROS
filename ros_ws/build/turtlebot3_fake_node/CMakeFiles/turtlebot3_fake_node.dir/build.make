@@ -93,10 +93,10 @@ turtlebot3_fake_node: /opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_introspe
 turtlebot3_fake_node: /opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_cpp.so
-turtlebot3_fake_node: /home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
-turtlebot3_fake_node: /home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
-turtlebot3_fake_node: /home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
-turtlebot3_fake_node: /home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+turtlebot3_fake_node: /opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+turtlebot3_fake_node: /opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+turtlebot3_fake_node: /opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+turtlebot3_fake_node: /opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -135,7 +135,7 @@ turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
-turtlebot3_fake_node: /home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+turtlebot3_fake_node: /opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_generator_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
 turtlebot3_fake_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so

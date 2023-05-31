@@ -1,0 +1,68 @@
+[1.071s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_motor_controller': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rover_motor_controller build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed
+[1.430s] running egg_info
+[1.431s] creating ../../../build/rover_motor_controller/rover_motor_controller.egg-info
+[1.432s] writing ../../../build/rover_motor_controller/rover_motor_controller.egg-info/PKG-INFO
+[1.434s] writing dependency_links to ../../../build/rover_motor_controller/rover_motor_controller.egg-info/dependency_links.txt
+[1.435s] writing entry points to ../../../build/rover_motor_controller/rover_motor_controller.egg-info/entry_points.txt
+[1.436s] writing requirements to ../../../build/rover_motor_controller/rover_motor_controller.egg-info/requires.txt
+[1.436s] writing top-level names to ../../../build/rover_motor_controller/rover_motor_controller.egg-info/top_level.txt
+[1.439s] writing manifest file '../../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[1.518s] reading manifest file '../../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[1.520s] writing manifest file '../../../build/rover_motor_controller/rover_motor_controller.egg-info/SOURCES.txt'
+[1.521s] running build
+[1.522s] running build_py
+[1.522s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build
+[1.525s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib
+[1.526s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller
+[1.526s] copying rover_motor_controller/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller
+[1.527s] copying rover_motor_controller/controller_node_main.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller
+[1.529s] copying rover_motor_controller/vel_parser_node_main.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller
+[1.530s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[1.531s] copying rover_motor_controller/motor_controller/vel_parser_node.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[1.532s] copying rover_motor_controller/motor_controller/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[1.534s] copying rover_motor_controller/motor_controller/controller_node.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller
+[1.535s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[1.536s] copying rover_motor_controller/lx16a/motor_controller.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[1.537s] copying rover_motor_controller/lx16a/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[1.538s] copying rover_motor_controller/lx16a/lx16a.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[1.538s] copying rover_motor_controller/lx16a/lx16a_consts.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a
+[1.538s] running install
+[1.539s] running install_lib
+[1.540s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller
+[1.540s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller
+[1.540s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/vel_parser_node.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller
+[1.540s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/motor_controller/controller_node.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller
+[1.541s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/motor_controller.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/lx16a.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/lx16a/lx16a_consts.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/controller_node_main.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller
+[1.541s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build/lib/rover_motor_controller/vel_parser_node_main.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller
+[1.547s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller/vel_parser_node.py to vel_parser_node.cpython-38.pyc
+[1.551s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller/__init__.py to __init__.cpython-38.pyc
+[1.551s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/motor_controller/controller_node.py to controller_node.cpython-38.pyc
+[1.551s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/__init__.py to __init__.cpython-38.pyc
+[1.551s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a/motor_controller.py to motor_controller.cpython-38.pyc
+[1.552s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a/__init__.py to __init__.cpython-38.pyc
+[1.552s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a/lx16a.py to lx16a.cpython-38.pyc
+[1.555s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/lx16a/lx16a_consts.py to lx16a_consts.cpython-38.pyc
+[1.555s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/controller_node_main.py to controller_node_main.cpython-38.pyc
+[1.556s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller/vel_parser_node_main.py to vel_parser_node_main.cpython-38.pyc
+[1.556s] running install_data
+[1.557s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/ament_index
+[1.557s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/ament_index/resource_index
+[1.557s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/ament_index/resource_index/packages
+[1.557s] copying resource/rover_motor_controller -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/ament_index/resource_index/packages
+[1.557s] copying package.xml -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/rover_motor_controller
+[1.557s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/rover_motor_controller/launch
+[1.557s] copying launch/motor_controller.launch.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/share/rover_motor_controller/launch/
+[1.557s] running install_egg_info
+[1.559s] Copying ../../../build/rover_motor_controller/rover_motor_controller.egg-info to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages/rover_motor_controller-0.0.0-py3.8.egg-info
+[1.560s] running install_scripts
+[1.603s] Installing controller_node script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/rover_motor_controller
+[1.604s] Installing vel_parser_node script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/rover_motor_controller
+[1.607s] writing list of installed files to '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/install.log'
+[1.655s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_motor_controller' returned '0': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rover_motor_controller build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller/install.log --install-scripts $base/lib/rover_motor_controller --single-version-externally-managed

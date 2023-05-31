@@ -1,0 +1,90 @@
+[0.048s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces -- -j4 -l4
+[0.125s] [  3%] Built target pkg_interfaces__cpp
+[0.152s] [ 12%] Built target pkg_interfaces__rosidl_generator_c
+[0.179s] [ 22%] Built target pkg_interfaces__rosidl_typesupport_cpp
+[0.225s] [ 32%] Built target pkg_interfaces__rosidl_typesupport_c
+[0.258s] [ 41%] Built target pkg_interfaces__rosidl_typesupport_introspection_c
+[0.304s] [ 51%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.335s] [ 61%] Built target pkg_interfaces__rosidl_typesupport_introspection_cpp
+[0.385s] [ 70%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c
+[0.415s] [ 70%] Built target pkg_interfaces
+[0.456s] [ 74%] Built target pkg_interfaces__py
+[0.503s] [ 80%] Built target pkg_interfaces__python
+[0.558s] [ 87%] Built target pkg_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.590s] [ 93%] Built target pkg_interfaces__rosidl_typesupport_c__pyext
+[0.636s] [100%] Built target pkg_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.665s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces -- -j4 -l4
+[1.040s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces
+[1.085s] -- Install configuration: ""
+[1.086s] -- Execute custom install script
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/ament_index/resource_index/rosidl_interfaces/pkg_interfaces
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/batterylvl.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__functions.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__struct.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__type_support.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.sh
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/library_path.dsv
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_fastrtps_c.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.086s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_fastrtps_cpp.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_introspection_c.h
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/batterylvl.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__builder.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__struct.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__traits.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_introspection_cpp.hpp
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/__init__.py
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/msg/__init__.py
+[1.087s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/msg/_batterylvl.py
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages/pkg_interfaces/pkg_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__python.so
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Batterylvl.idl
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/msg/Batterylvl.msg
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/ament_index/resource_index/package_run_dependencies/pkg_interfaces
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/ament_index/resource_index/parent_prefix_path/pkg_interfaces
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.sh
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/ament_prefix_path.dsv
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.sh
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/path.dsv
+[1.088s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.bash
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.sh
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.zsh
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/local_setup.dsv
+[1.089s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/package.dsv
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/ament_index/resource_index/packages/pkg_interfaces
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.089s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.090s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.090s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig.cmake
+[1.090s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfacesConfig-version.cmake
+[1.090s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/package.xml
+[1.090s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_generator_c.so
+[1.090s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_c.so
+[1.090s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_c.so
+[1.090s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.091s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/libpkg_interfaces__rosidl_typesupport_cpp.so
+[1.132s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_generator_cExport.cmake
+[1.132s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.133s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.133s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.133s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport.cmake
+[1.133s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.134s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_generator_cppExport.cmake
+[1.134s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.134s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.135s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport.cmake
+[1.135s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/cmake/pkg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.141s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces

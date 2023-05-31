@@ -10,7 +10,7 @@ func (a *API) RegisterRoutes(r *mux.Router) {
 
 	a.allPages = append(a.allPages, "/battery")
 	a.allPages = append(a.allPages, "/")
-	a.allPages = append(a.allPages, "/odm")
+	a.allPages = append(a.allPages, "/odom")
 	a.allPages = append(a.allPages, "/discover")
 	//a.allPages = append(a.allPages, "/books")
 	//register the routes

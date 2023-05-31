@@ -22,7 +22,7 @@ setup(
         'console_scripts': [
         'battery_publisher = ms_sub.battery_publisher:main',
         'battery_subscriber = ms_sub.battery_subscriber:main',
-        'odm_subscriber = ms_sub.odm_subscriber:main',
+        'odom_suscriber = ms_sub.odom_suscriber:main',
         ],
     },
 )

@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rtabmap_ros: 0.21.1 (/opt/ros/foxy/share/rtabmap_ros/cmake)
+-- Found robot_localization: 3.1.2 (/opt/ros/foxy/share/robot_localization/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_localization
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization//launch/ekf.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization//launch/localization.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization//launch/rgbd_odometry.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization//launch/rtabmap.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization//config/ekf.yaml
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/ament_index/resource_index/package_run_dependencies/rover_localization
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/ament_index/resource_index/parent_prefix_path/rover_localization
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/environment/path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/environment/path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/local_setup.bash
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/local_setup.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/local_setup.zsh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/local_setup.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/package.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/ament_index/resource_index/packages/rover_localization
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/cmake/rover_localizationConfig-version.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_localization/share/rover_localization/package.xml

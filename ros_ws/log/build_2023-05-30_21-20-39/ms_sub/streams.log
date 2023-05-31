@@ -1,0 +1,42 @@
+[2.020s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build
+[2.657s] running develop
+[3.068s] Removing /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms-sub.egg-link (link to .)
+[3.126s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build
+[3.127s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ms_sub': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ms_sub build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/install.log --install-scripts $base/lib/ms_sub --single-version-externally-managed
+[3.710s] running egg_info
+[3.718s] writing ../../build/ms_sub/ms_sub.egg-info/PKG-INFO
+[3.719s] writing dependency_links to ../../build/ms_sub/ms_sub.egg-info/dependency_links.txt
+[3.720s] writing entry points to ../../build/ms_sub/ms_sub.egg-info/entry_points.txt
+[3.722s] writing requirements to ../../build/ms_sub/ms_sub.egg-info/requires.txt
+[3.724s] writing top-level names to ../../build/ms_sub/ms_sub.egg-info/top_level.txt
+[3.801s] reading manifest file '../../build/ms_sub/ms_sub.egg-info/SOURCES.txt'
+[3.811s] writing manifest file '../../build/ms_sub/ms_sub.egg-info/SOURCES.txt'
+[3.812s] running build
+[3.812s] running build_py
+[3.813s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build
+[3.814s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib
+[3.814s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub
+[3.815s] copying ms_sub/battery_subscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub
+[3.816s] copying ms_sub/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub
+[3.817s] copying ms_sub/odm_suscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub
+[3.818s] copying ms_sub/battery_publisher.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub
+[3.819s] running install
+[3.820s] running install_lib
+[3.822s] creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub
+[3.824s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub/battery_subscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub
+[3.825s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub/__init__.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub
+[3.826s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub/odm_suscriber.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub
+[3.827s] copying /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build/lib/ms_sub/battery_publisher.py -> /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub
+[3.829s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub/battery_subscriber.py to battery_subscriber.cpython-38.pyc
+[3.832s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub/__init__.py to __init__.cpython-38.pyc
+[3.833s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub/odm_suscriber.py to odm_suscriber.cpython-38.pyc
+[3.835s] byte-compiling /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub/battery_publisher.py to battery_publisher.cpython-38.pyc
+[3.843s] running install_data
+[3.844s] running install_egg_info
+[3.846s] Copying ../../build/ms_sub/ms_sub.egg-info to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages/ms_sub-0.0.0-py3.8.egg-info
+[3.855s] running install_scripts
+[3.875s] Installing battery_publisher script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/ms_sub
+[3.876s] Installing battery_subscriber script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/ms_sub
+[3.877s] Installing odm_subscriber script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/ms_sub
+[3.878s] writing list of installed files to '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/install.log'
+[3.910s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ms_sub' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub/lib/python3.8/site-packages:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ms_sub build --build-base /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/build install --record /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/ms_sub/install.log --install-scripts $base/lib/ms_sub --single-version-externally-managed

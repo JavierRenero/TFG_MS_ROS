@@ -1,0 +1,90 @@
+[0.067s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs -- -j4 -l4
+[0.184s] [  3%] Built target rover_msgs__cpp
+[0.234s] [ 12%] Built target rover_msgs__rosidl_generator_c
+[0.286s] [ 22%] Built target rover_msgs__rosidl_typesupport_introspection_cpp
+[0.401s] [ 32%] Built target rover_msgs__rosidl_typesupport_c
+[0.458s] [ 41%] Built target rover_msgs__rosidl_typesupport_introspection_c
+[0.513s] [ 51%] Built target rover_msgs__rosidl_typesupport_fastrtps_cpp
+[0.552s] [ 61%] Built target rover_msgs__rosidl_typesupport_cpp
+[0.651s] [ 70%] Built target rover_msgs__rosidl_typesupport_fastrtps_c
+[0.726s] [ 70%] Built target rover_msgs
+[0.799s] [ 74%] Built target rover_msgs__py
+[0.890s] [ 80%] Built target rover_msgs__python
+[0.966s] [ 87%] Built target rover_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.024s] [ 93%] Built target rover_msgs__rosidl_typesupport_c__pyext
+[1.122s] [100%] Built target rover_msgs__rosidl_typesupport_introspection_c__pyext
+[1.148s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs -- -j4 -l4
+[1.701s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs
+[1.724s] -- Install configuration: ""
+[1.725s] -- Execute custom install script
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/ament_index/resource_index/rosidl_interfaces/rover_msgs
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__functions.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__struct.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__type_support.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/motors_command.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/library_path.sh
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/library_path.dsv
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__rosidl_typesupport_fastrtps_c.h
+[1.725s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.726s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_c.so
+[1.732s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.732s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.733s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.735s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__rosidl_typesupport_introspection_c.h
+[1.735s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.736s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__builder.hpp
+[1.736s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__struct.hpp
+[1.737s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__traits.hpp
+[1.738s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/motors_command.hpp
+[1.739s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/include/rover_msgs/msg/detail/motors_command__rosidl_typesupport_introspection_cpp.hpp
+[1.740s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/pythonpath.sh
+[1.743s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/pythonpath.dsv
+[1.744s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/__init__.py
+[1.745s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/msg/__init__.py
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/msg/_motors_command.py
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages/rover_msgs/rover_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__python.so
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/msg/MotorsCommand.idl
+[1.750s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/msg/MotorsCommand.msg
+[1.756s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/ament_index/resource_index/package_run_dependencies/rover_msgs
+[1.756s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/ament_index/resource_index/parent_prefix_path/rover_msgs
+[1.756s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/ament_prefix_path.sh
+[1.756s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/ament_prefix_path.dsv
+[1.756s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/path.sh
+[1.772s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/environment/path.dsv
+[1.772s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/local_setup.bash
+[1.772s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/local_setup.sh
+[1.772s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/local_setup.zsh
+[1.772s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/local_setup.dsv
+[1.775s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/package.dsv
+[1.786s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/ament_index/resource_index/packages/rover_msgs
+[1.788s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake-extras.cmake
+[1.788s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.788s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.789s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.789s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.789s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.790s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.792s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgsConfig.cmake
+[1.792s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgsConfig-version.cmake
+[1.792s] -- Up-to-date symlink: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/package.xml
+[1.792s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_generator_c.so
+[1.792s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_c.so
+[1.794s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_c.so
+[1.795s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_introspection_cpp.so
+[1.795s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/librover_msgs__rosidl_typesupport_cpp.so
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_generator_cExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_generator_cppExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cppExport.cmake
+[1.871s] -- Up-to-date: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake/rover_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.888s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_msgs

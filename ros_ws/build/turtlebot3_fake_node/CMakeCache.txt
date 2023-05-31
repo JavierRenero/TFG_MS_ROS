@@ -272,7 +272,7 @@ SITE:STRING=Triqui-PC
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/home/triqui/turtlebot3_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/foxy/share/action_msgs/cmake
@@ -464,7 +464,7 @@ turtlebot3_fake_node_BINARY_DIR:STATIC=/home/triqui/Documents/TFG/TFG_MS_ROS/ros
 turtlebot3_fake_node_SOURCE_DIR:STATIC=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/turtlebot3_simulations/turtlebot3_fake_node
 
 //The directory containing a CMake configuration file for turtlebot3_msgs.
-turtlebot3_msgs_DIR:PATH=/home/triqui/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake
+turtlebot3_msgs_DIR:PATH=/opt/ros/foxy/share/turtlebot3_msgs/cmake
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
 unique_identifier_msgs_DIR:PATH=/opt/ros/foxy/share/unique_identifier_msgs/cmake

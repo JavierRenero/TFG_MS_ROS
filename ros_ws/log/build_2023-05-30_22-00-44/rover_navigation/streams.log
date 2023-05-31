@@ -1,0 +1,32 @@
+[0.038s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation
+[0.081s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.141s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.500s] -- Configuring done
+[0.509s] -- Generating done
+[0.510s] -- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation
+[0.623s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation
+[0.625s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation -- -j4 -l4
+[0.693s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation -- -j4 -l4
+[0.729s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation
+[0.746s] -- Install configuration: ""
+[0.746s] -- Execute custom install script
+[0.747s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/launch/bringup.launch.py
+[0.760s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/launch/navigation.launch.py
+[0.772s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/params/nav2.yaml
+[0.791s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/ament_index/resource_index/package_run_dependencies/rover_navigation
+[0.803s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/ament_index/resource_index/parent_prefix_path/rover_navigation
+[0.815s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/environment/ament_prefix_path.sh
+[0.829s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/environment/ament_prefix_path.dsv
+[0.842s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/environment/path.sh
+[0.863s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/environment/path.dsv
+[0.910s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/local_setup.bash
+[0.927s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/local_setup.sh
+[0.942s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/local_setup.zsh
+[0.957s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/local_setup.dsv
+[0.969s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/package.dsv
+[0.985s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/ament_index/resource_index/packages/rover_navigation
+[0.997s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/cmake/rover_navigationConfig.cmake
+[1.010s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/cmake/rover_navigationConfig-version.cmake
+[1.028s] -- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_navigation/share/rover_navigation/package.xml
+[1.350s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/my_battery_package:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/ms_sub:/opt/ros/foxy /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation

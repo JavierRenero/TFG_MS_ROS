@@ -1,0 +1,10 @@
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/install/strip.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/install/local.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/install.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/list_install_components.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/rebuild_cache.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/edit_cache.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/test.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/motors_command_parser_node.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/rover_gazebo_uninstall.dir
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo/CMakeFiles/uninstall.dir

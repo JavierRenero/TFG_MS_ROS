@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/controller_node" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_motor_controller_cpp/vel_parser_node" "TARGETS" "controller_node" "vel_parser_node" "DESTINATION" "lib/rover_motor_controller_cpp")

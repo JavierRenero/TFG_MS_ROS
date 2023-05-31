@@ -18,7 +18,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/turtlebot3_simulations/turtlebot3_fake_node/include"
-  "/home/triqui/turtlebot3_ws/install/turtlebot3_msgs/include"
   "/opt/ros/foxy/include"
   )
 

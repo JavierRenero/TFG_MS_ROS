@@ -1,0 +1,144 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-transport8 -- found version 8.3.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.14.2
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-fuel_tools4 -- found version 4.6.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Looking for ignition-common3 -- found version 3.14.2
+-- Looking for ignition-math6 -- found version 6.13.0
+-- Looking for ignition-msgs5 -- found version 5.10.0
+-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Gazebo version: 11.11
+-- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+-- Found rviz2: 8.2.8 (/opt/ros/foxy/share/rviz2/cmake)
+-- Found rover_description: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description/share/rover_description/cmake)
+-- Found rover_msgs: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake)
+-- Found rover_motor_controller_cpp: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo
+[ 50%] [32m[1mLinking CXX executable motors_command_parser_node[0m
+[100%] Built target motors_command_parser_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/curiosity.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/forest.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/gazebo.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/include/cmd_vel.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/include/spawn.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/mars.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/moon.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/curiosity.world
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/empty.world
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/forest.world
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/mars.world
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/moon.world
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater4k.stl
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater_martian_red.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.stl
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/mars_texture_lq.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/basecolor.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/bumpy.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/jaggedrock_texture.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture_lq.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/reddish-sand.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.stl
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain_textured.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_1.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_normal.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/moon.png
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/moon.xcf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.stl
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/texture.jpg
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/SMALL_RED_BaseColor.png
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/rockformation.dae
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.png
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.xcf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/model.config
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/model.sdf
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/rviz/default.rviz
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/package_run_dependencies/rover_gazebo
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/parent_prefix_path/rover_gazebo
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.bash
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.zsh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/package.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/packages/rover_gazebo
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig-version.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/package.xml

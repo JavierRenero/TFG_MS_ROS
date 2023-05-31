@@ -1,0 +1,208 @@
+[0.020s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_gazebo -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo
+[0.107s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.181s] -- Check for working C compiler: /usr/bin/cc
+[0.272s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.272s] -- Detecting C compiler ABI info
+[0.412s] -- Detecting C compiler ABI info - done
+[0.415s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++
+[0.529s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.530s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.639s] -- Detecting CXX compile features
+[0.641s] -- Detecting CXX compile features - done
+[0.647s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.678s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.678s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.932s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.938s] -- Checking for module 'bullet>=2.82'
+[0.956s] --   Found bullet, version 2.88
+[1.117s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.204s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.287s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.313s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.719s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.751s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.757s] -- Looking for ignition-math6 -- found version 6.13.0
+[1.764s] -- Searching for dependencies of ignition-math6
+[1.766s] -- Looking for OGRE...
+[1.767s] -- OGRE_PREFIX_WATCH changed.
+[1.772s] -- Checking for module 'OGRE'
+[1.795s] --   Found OGRE, version 1.9.0
+[1.851s] -- Found Ogre Ghadamon (1.9.0)
+[1.863s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.875s] -- Looking for OGRE_Paging...
+[1.884s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.884s] -- Looking for OGRE_Terrain...
+[1.892s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.892s] -- Looking for OGRE_Property...
+[1.900s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.900s] -- Looking for OGRE_RTShaderSystem...
+[1.907s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.907s] -- Looking for OGRE_Volume...
+[1.915s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.915s] -- Looking for OGRE_Overlay...
+[1.926s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.092s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.094s] -- Looking for ignition-transport8 -- found version 8.3.0
+[2.095s] -- Searching for dependencies of ignition-transport8
+[2.117s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.130s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.136s] -- Checking for module 'libzmq >= 4'
+[2.158s] --   Found libzmq , version 4.3.2
+[2.213s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.222s] -- Checking for module 'uuid'
+[2.241s] --   Found uuid, version 2.34.0
+[2.300s] -- Found UUID: TRUE  
+[2.303s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.304s] -- Searching for dependencies of ignition-msgs5
+[2.328s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.335s] -- Checking for module 'tinyxml2'
+[2.356s] --   Found tinyxml2, version 6.2.0
+[2.415s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.419s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.420s] -- Searching for dependencies of ignition-common3
+[2.420s] -- Looking for dlfcn.h - found
+[2.421s] -- Looking for libdl - found
+[2.423s] -- Found DL: TRUE  
+[2.433s] -- Searching for <ignition-common3> component [graphics]
+[2.439s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.439s] -- Searching for dependencies of ignition-common3-graphics
+[2.440s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.446s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.446s] -- Searching for dependencies of ignition-fuel_tools4
+[2.560s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[2.569s] -- Checking for module 'jsoncpp'
+[2.594s] --   Found jsoncpp, version 1.7.4
+[2.644s] -- Found JSONCPP: TRUE  
+[2.652s] -- Checking for module 'libzip'
+[2.672s] --   Found libzip, version 1.5.1
+[2.724s] -- Found ZIP: TRUE  
+[2.725s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.725s] -- Looking for ignition-math6 -- found version 6.13.0
+[2.726s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.730s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[2.786s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.795s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.941s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.972s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.140s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.143s] -- Found Threads: TRUE  
+[3.333s] -- Gazebo version: 11.11
+[3.344s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[4.138s] -- Found rviz2: 8.2.8 (/opt/ros/foxy/share/rviz2/cmake)
+[4.139s] -- Found rover_description: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description/share/rover_description/cmake)
+[4.140s] -- Found rover_msgs: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/share/rover_msgs/cmake)
+[4.148s] -- Found rover_motor_controller_cpp: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake)
+[4.219s] -- Configuring done
+[4.231s] -- Generating done
+[4.235s] -- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo
+[4.247s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/ros2_rover/rover_gazebo -DCMAKE_INSTALL_PREFIX=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo
+[4.251s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo -- -j4 -l4
+[4.302s] [35m[1mScanning dependencies of target motors_command_parser_node[0m
+[4.356s] [ 50%] [32mBuilding CXX object CMakeFiles/motors_command_parser_node.dir/src/motors_command_parser_node.cpp.o[0m
+[9.786s] [100%] [32m[1mLinking CXX executable motors_command_parser_node[0m
+[10.085s] [100%] Built target motors_command_parser_node
+[10.100s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo -- -j4 -l4
+[10.130s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo
+[10.140s] -- Install configuration: ""
+[10.140s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node
+[10.143s] -- Set runtime path of "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/lib/rover_gazebo/motors_command_parser_node" to ""
+[10.143s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/include
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/include/cmd_vel.launch.py
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/include/spawn.launch.py
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/mars.launch.py
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/moon.launch.py
+[10.144s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/gazebo.launch.py
+[10.145s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/forest.launch.py
+[10.145s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/launch/curiosity.launch.py
+[10.145s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds
+[10.145s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/forest.world
+[10.145s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/empty.world
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/mars.world
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/moon.world
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/worlds/curiosity.world
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/meshes
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater4k.stl
+[10.146s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/meshes/crater_martian_red.dae
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/model.sdf
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/crater/model.config
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/mars_texture_lq.jpg
+[10.147s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.dae
+[10.156s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/meshes/curiosity_path25k.stl
+[10.159s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.sdf
+[10.159s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/curiosity_path/model.config
+[10.159s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9
+[10.160s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes
+[10.160s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.dae
+[10.163s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/texture.jpg
+[10.163s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/meshes/rock9.stl
+[10.165s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/model.sdf
+[10.165s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rock9/model.config
+[10.165s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation
+[10.165s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes
+[10.166s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/SMALL_RED_BaseColor.png
+[10.166s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/meshes/rockformation.dae
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.sdf
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/rockformation/model.config
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/model.sdf
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/model.config
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures
+[10.170s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/moon.png
+[10.171s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_1.jpg
+[10.171s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/moon.xcf
+[10.171s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground.jpg
+[10.171s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/moon/materials/textures/ground_normal.jpg
+[10.173s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock
+[10.173s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes
+[10.173s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/jaggedrock_texture.dae
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/basecolor.jpg
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/meshes/bumpy.jpg
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.sdf
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/jaggedrock/model.config
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes
+[10.175s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/reddish-sand.jpg
+[10.176s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture_lq.jpg
+[10.176s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.dae
+[10.176s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/mars_texture.jpg
+[10.178s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain_textured.dae
+[10.178s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/meshes/terrain.stl
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.sdf
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/mars_terrain/model.config
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/model.sdf
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/model.config
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.png
+[10.179s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/models/terrain/materials/textures/terrain.xcf
+[10.180s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/rviz
+[10.180s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/rviz/default.rviz
+[10.180s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/package_run_dependencies/rover_gazebo
+[10.180s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/parent_prefix_path/rover_gazebo
+[10.180s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.sh
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/ament_prefix_path.dsv
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/path.sh
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/environment/path.dsv
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.bash
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.sh
+[10.181s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.zsh
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/local_setup.dsv
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/package.dsv
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/ament_index/resource_index/packages/rover_gazebo
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig.cmake
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/cmake/rover_gazeboConfig-version.cmake
+[10.182s] -- Installing: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_gazebo/share/rover_gazebo/package.xml
+[10.187s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo' returned '0': AMENT_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_description:/opt/ros/foxy LD_LIBRARY_PATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_gazebo

@@ -1,0 +1,17 @@
+[1.235s] Invoking command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop/build --no-deps install_data
+[1.738s] running develop
+[2.042s] running egg_info
+[2.046s] writing rover_teleop.egg-info/PKG-INFO
+[2.052s] writing dependency_links to rover_teleop.egg-info/dependency_links.txt
+[2.055s] writing entry points to rover_teleop.egg-info/entry_points.txt
+[2.058s] writing requirements to rover_teleop.egg-info/requires.txt
+[2.059s] writing top-level names to rover_teleop.egg-info/top_level.txt
+[2.116s] reading manifest file 'rover_teleop.egg-info/SOURCES.txt'
+[2.118s] writing manifest file 'rover_teleop.egg-info/SOURCES.txt'
+[2.184s] running build_ext
+[2.199s] Creating /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop/lib/python3.8/site-packages/rover-teleop.egg-link (link to .)
+[2.201s] Installing teleop_keyboard_node script to /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop/lib/rover_teleop
+[2.203s] 
+[2.203s] Installed /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop
+[2.204s] running install_data
+[2.285s] Invoked command in '/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop' returned '0': PYTHONPATH=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop/prefix_override:/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_teleop/build --no-deps install_data

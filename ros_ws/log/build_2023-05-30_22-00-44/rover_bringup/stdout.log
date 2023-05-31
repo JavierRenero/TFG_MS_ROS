@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rover_motor_controller_cpp: 0.0.0 (/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_motor_controller_cpp/share/rover_motor_controller_cpp/cmake)
+-- Found joy_linux: 3.0.1 (/opt/ros/foxy/share/joy_linux/cmake)
+-- Found teleop_twist_joy: 2.4.3 (/opt/ros/foxy/share/teleop_twist_joy/cmake)
+-- Found urg_node: 1.0.3 (/opt/ros/foxy/share/urg_node/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup//launch/rover.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup//launch/ublox.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup//launch/urg_node.launch.py
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup//config/ublox.yaml
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup//config/urg_node_serial.yaml
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/ament_index/resource_index/package_run_dependencies/rover_bringup
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/ament_index/resource_index/parent_prefix_path/rover_bringup
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/environment/path.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/environment/path.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/local_setup.bash
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/local_setup.sh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/local_setup.zsh
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/local_setup.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/package.dsv
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/ament_index/resource_index/packages/rover_bringup
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/cmake/rover_bringupConfig-version.cmake
+-- Symlinking: /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/rover_bringup/share/rover_bringup/package.xml
