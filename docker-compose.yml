@@ -1,31 +1,40 @@
-version: '2'
+version: '3.4'
 
 services:
   api:
-    build: ./MS_ROS_V0.1
+    build:
+      context: ./MS_ROS_V0.1
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
     command: go run main.go -b 0.0.0.0
-  robot:
-    image: javier8renero/tfg_ms:humble
-    command: export TURTLEBOT3_MODEL=waffle_pi && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
-  ms_autocontrol:
-    image: javier8renero/tfg_ms:humble
-    command: ros2 run turtlebot3_gazebo turtlebot3_drive
-    depends_on:
-      - robot
+  # robot:
+  #   image: javier8renero/tfg_ms:humble
+  #   command: export TURTLEBOT3_MODEL=waffle_pi && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  # ms_autocontrol:
+  #   image: javier8renero/tfg_ms:humble
+  #   command: ros2 run turtlebot3_gazebo turtlebot3_drive
+  #   # depends_on:
+  #   #   - robot
   ms_odm:
     image: javier8renero/tfg_ms:humble
+    build:
+      context: ./Docker
+      dockerfile: Dockerfile
+    ports:
+      - 5001:5001
     command: ros2 run ms_sub odom_suscriber
-    depends_on:
-      - robot
-  ms_battery_publisher:
-    image: javier8renero/tfg_ms:humble
-    command: ros2 run demo_nodes_cpp listener
-    depends_on:
-      - robot
-  ms_battery_subscriber:
-    image: javier8renero/tfg_ms:humble
-    command: ros2 run ms_sub battery_subscriber
-    depends_on:
-      - robot
+    # depends_on:
+    #   - robot
+  # ms_battery_publisher:
+  #   image: javier8renero/tfg_ms:humble
+  #   command: ros2 run demo_nodes_cpp listener
+  #   # depends_on:
+  #   #   - robot
+  # ms_battery_subscriber:
+  #   image: javier8renero/tfg_ms:humble
+  #   command: ros2 run ms_sub battery_subscriber
+  #   ports:
+  #     - 5000:5000
+  #   # depends_on:
+  #   #   - robot
