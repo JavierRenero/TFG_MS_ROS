@@ -9,7 +9,8 @@ apt upgrade -y
 apt install ros-humble-desktop python3-argcomplete python3-colcon-common-extensions python3-rosdep -y 
 
 apt update
-apt install ros-humble-gazebo-ros-pkgs ros-humble-cartographer ros-humble-cartographer-ros ros-humble-navigation2 ros-humble-nav2-bringup -y
-apt install ros-humble-turtlebot3-msgs ros-humble-dynamixel-sdk ros-humble-hls-lfcd-lds-driver -y
+
+apt install ros-humble-gazebo-* ros-humble-cartographer ros-humble-cartographer-ros ros-humble-navigation2 ros-humble-nav2-bringup -y
+apt install ros-humble-turtlebot3-msgs ros-humble-dynamixel-sdk ros-humble-turtlebot3 ros-humble-hls-lfcd-lds-driver -y
 
 mkdir -p /root/ros2_ws/src

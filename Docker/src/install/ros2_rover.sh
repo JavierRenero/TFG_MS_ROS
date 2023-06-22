@@ -21,4 +21,6 @@ cd /root/ros2_ws
 pip install flask
 colcon build
 echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models' >> ~/.bashrc
+echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
 source ~/.bashrc
+source /root/ros2_ws/install/setup.sh
