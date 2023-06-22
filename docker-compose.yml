@@ -1,21 +1,31 @@
 version: '2'
 
 services:
+  api:
+    build: ./MS_ROS_V0.1
+    ports:
+      - "8080:8080"
+    command: go run main.go -b 0.0.0.0
   robot:
-    image: osrf/ros:humble-desktop
-    command: ros2 run demo_nodes_cpp talker
+    image: javier8renero/tfg_ms:humble
+    command: export TURTLEBOT3_MODEL=waffle_pi && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
   ms_autocontrol:
-    image: osrf/ros:humble-desktop
-    command: ros2 run demo_nodes_cpp talker
+    image: javier8renero/tfg_ms:humble
+    command: ros2 run turtlebot3_gazebo turtlebot3_drive
     depends_on:
       - robot
   ms_odm:
-    image: osrf/ros:humble-desktop
+    image: javier8renero/tfg_ms:humble
+    command: ros2 run ms_sub odom_suscriber
+    depends_on:
+      - robot
+  ms_battery_publisher:
+    image: javier8renero/tfg_ms:humble
     command: ros2 run demo_nodes_cpp listener
     depends_on:
       - robot
-  ms_battery:
-    image: osrf/ros:humble-desktop
-    command: ros2 run demo_nodes_cpp listener
+  ms_battery_subscriber:
+    image: javier8renero/tfg_ms:humble
+    command: ros2 run ms_sub battery_subscriber
     depends_on:
       - robot
