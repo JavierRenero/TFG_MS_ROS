@@ -1,9 +1,0 @@
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/install/strip.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/install/local.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/edit_cache.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/test.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/install.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/list_install_components.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/rebuild_cache.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/rover_navigation_uninstall.dir
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/rover_navigation/CMakeFiles/uninstall.dir

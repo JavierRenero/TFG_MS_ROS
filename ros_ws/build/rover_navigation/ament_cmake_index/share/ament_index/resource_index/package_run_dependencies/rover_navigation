@@ -1,1 +1,0 @@
-rclcpp;rclpy;tf2_ros;tf_transformations;geometry_msgs;nav2_msgs;nav2_bringup;navigation2;nav2_smac_planner;nav2_regulated_pure_pursuit_controller;ament_copyright;ament_flake8;ament_pep257;python3-pytest

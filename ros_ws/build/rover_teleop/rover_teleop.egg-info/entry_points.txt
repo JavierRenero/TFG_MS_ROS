@@ -1,3 +1,0 @@
-[console_scripts]
-teleop_keyboard_node = rover_teleop.teleop_keyboard_node:main
-

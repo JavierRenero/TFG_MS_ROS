@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  robot:
+    image: osrf/ros:humble-desktop
+    command: ros2 run demo_nodes_cpp talker
+  ms_autocontrol:
+    image: osrf/ros:humble-desktop
+    command: ros2 run demo_nodes_cpp talker
+    depends_on:
+      - robot
+  ms_odm:
+    image: osrf/ros:humble-desktop
+    command: ros2 run demo_nodes_cpp listener
+    depends_on:
+      - robot
+  ms_battery:
+    image: osrf/ros:humble-desktop
+    command: ros2 run demo_nodes_cpp listener
+    depends_on:
+      - robot
