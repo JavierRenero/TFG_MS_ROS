@@ -18,9 +18,9 @@ services:
   #   #   - robot
   ms_odm:
     image: javier8renero/tfg_ms:humble
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     ports:
       - 5001:5001
     command: ros2 run ms_sub odom_suscriber
