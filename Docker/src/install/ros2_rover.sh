@@ -4,6 +4,9 @@
 cd /root/ros2_ws/src
 git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 git clone -b humble https://github.com/mgonzs13/ros2_rover.git
+git clone https://github.com/JavierRenero/my_battery_package.git
+git clone https://github.com/JavierRenero/pkg_interfaces.git
+git clone https://github.com/JavierRenero/ms_sub.git
 
 # rosdep
 source /opt/ros/humble/setup.bash
