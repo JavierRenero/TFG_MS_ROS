@@ -20,3 +20,6 @@
 # Go workspace file
 go.work
 .vscode/settings.json
+*.json
+./ros_ws/build
+./ros_ws/install
