@@ -7,6 +7,7 @@ RUN go mod download && go mod verify
 
 # copy the rest of the source code and build
 COPY api ./api
+COPY api/api_docker.txt ./api/api.go
 
 # build the binary
 RUN go mod tidy

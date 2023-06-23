@@ -11,9 +11,9 @@ services:
     networks:
       - my_network
   robot:
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
@@ -29,9 +29,9 @@ services:
       - api
     #command: export TURTLEBOT3_MODEL=waffle_pi && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
   ms_autocontrol:
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
@@ -48,9 +48,9 @@ services:
     #command: ros2 run turtlebot3_gazebo turtlebot3_drive
    
   ms_battery_publisher:
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
@@ -66,9 +66,9 @@ services:
       - robot
     #command: ros2 run ms_sub battery_publisher
   ms_odm:
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
@@ -86,9 +86,9 @@ services:
       - 5001:5001
     #command: ros2 run ms_sub odm_subscriber
   ms_battery_subscriber:
-    build:
-      context: ./Docker
-      dockerfile: Dockerfile
+    # build:
+    #   context: ./Docker
+    #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
