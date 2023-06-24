@@ -11,23 +11,21 @@ services:
     networks:
       - my_network
   robot:
+    image: javier8renero/tfg_ms:humble
+    depends_on:
+      - api
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
-   # volumes:
-     # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /tmp/.docker.xauth:/tmp/.docker.xauth
+      - TURTLEBOT3_MODEL=waffle_pi
+      - SHELL=/bin/bash
     networks:
       - my_network
-    privileged: true
-    image: javier8renero/tfg_ms:humble
-    tty: true
-    depends_on:
-      - api
-    #command: export TURTLEBOT3_MODEL=waffle_pi && ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+    command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
   ms_autocontrol:
     # build:
     #   context: ./Docker
@@ -35,17 +33,13 @@ services:
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
-   # volumes:
-     # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /tmp/.docker.xauth:/tmp/.docker.xauth
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
-    tty: true
     depends_on:
       - robot
-    #command: ros2 run turtlebot3_gazebo turtlebot3_drive
+    command: ros2 run turtlebot3_gazebo turtlebot3_drive
    
   ms_battery_publisher:
     # build:
@@ -54,17 +48,13 @@ services:
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
-   # volumes:
-     # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /tmp/.docker.xauth:/tmp/.docker.xauth
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
-    tty: true
     depends_on:
       - robot
-    #command: ros2 run ms_sub battery_publisher
+    command: ros2 run ms_sub battery_publisher
   ms_odm:
     # build:
     #   context: ./Docker
@@ -72,19 +62,16 @@ services:
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
-   # volumes:
-     # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /tmp/.docker.xauth:/tmp/.docker.xauth
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
-    tty: true
     depends_on:
       - robot
     ports:
       - 5001:5001
-    #command: ros2 run ms_sub odm_subscriber
+    command: ros2 run ms_sub odom_suscriber
+
   ms_battery_subscriber:
     # build:
     #   context: ./Docker
@@ -92,15 +79,11 @@ services:
     environment:
       - DISPLAY=$DISPLAY
       - QT_X11_NO_MITSHM=1
-   # volumes:
-     # - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      #- /tmp/.docker.xauth:/tmp/.docker.xauth
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
-    tty: true
-    #command: ros2 run ms_sub battery_subscriber
+    command: ros2 run ms_sub battery_subscriber
     depends_on:
       - robot
     ports:

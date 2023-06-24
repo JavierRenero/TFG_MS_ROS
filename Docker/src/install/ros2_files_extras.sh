@@ -8,17 +8,18 @@ git clone https://github.com/JavierRenero/pkg_interfaces.git
 git clone https://github.com/JavierRenero/ms_sub.git
 
 # rosdep
-source /opt/ros/humble/setup.bash
+source /opt/ros/humble/setup.sh
 cd /root/ros2_ws
 rosdep init
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 
 # colcon
-source /opt/ros/humble/setup.bash
+source /opt/ros/humble/setup.sh
 cd /root/ros2_ws
 pip install flask
 colcon build
-echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/root/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models' >> ~/.bashrc
-echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
-source ~/.bashrc
+# echo 'export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:/root/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models' >> ~/.bashrc
+# echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
+# source ~/.bashrc
+source /root/ros2_ws/install/setup.sh
