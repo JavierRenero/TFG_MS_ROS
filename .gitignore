@@ -24,3 +24,4 @@ go.work
 ./ros_ws/build
 ./ros_ws/install
 Docker/src/install/ros_entrypoint.sh
+run_docker.bash
