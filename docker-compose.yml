@@ -1,4 +1,4 @@
-version: '3.4'
+version: '3.8'
 
 services:
   api:
@@ -14,24 +14,23 @@ services:
     image: javier8renero/tfg_ms:humble
     depends_on:
       - api
+    # Por si en vez de hacer un pull, quiere compilar la imagen en local, decomentar todos lo build
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
-    environment:
-      - DISPLAY=$DISPLAY
-      - QT_X11_NO_MITSHM=1
-      - TURTLEBOT3_MODEL=waffle_pi
+    # !! En caso de ejecutarlo en windows descomentar las siguientes lineas
+    # environment:
+    #   - DISPLAY=host.docker.internal:0.0
+    #   - LIBGL_ALWAYS_INDIRECT=0
+    #   - TURTLEBOT3_MODEL=waffle_pi
     networks:
       - my_network
     command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-  ms_autocontrol:
+  ms_autocontrol: 
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
-    environment:
-      - DISPLAY=$DISPLAY
-      - QT_X11_NO_MITSHM=1
     networks:
       - my_network
     privileged: true
@@ -44,29 +43,25 @@ services:
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
-    environment:
-      - DISPLAY=$DISPLAY
-      - QT_X11_NO_MITSHM=1
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
     depends_on:
       - robot
+      - ms_autocontrol
     command: ros2 run ms_sub battery_publisher
   ms_odm:
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
-    environment:
-      - DISPLAY=$DISPLAY
-      - QT_X11_NO_MITSHM=1
     networks:
       - my_network
     privileged: true
     image: javier8renero/tfg_ms:humble
     depends_on:
       - robot
+      - ms_autocontrol
     ports:
       - 5001:5001
     command: ros2 run ms_sub odom_suscriber
@@ -75,9 +70,6 @@ services:
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
-    environment:
-      - DISPLAY=$DISPLAY
-      - QT_X11_NO_MITSHM=1
     networks:
       - my_network
     privileged: true
@@ -85,6 +77,7 @@ services:
     command: ros2 run ms_sub battery_subscriber
     depends_on:
       - robot
+      - ms_autocontrol
     ports:
       - 5000:5000
 
