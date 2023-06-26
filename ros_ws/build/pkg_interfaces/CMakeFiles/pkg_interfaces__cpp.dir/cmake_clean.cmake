@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__builder.hpp"
   "rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__struct.hpp"
   "rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp"
+  "rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

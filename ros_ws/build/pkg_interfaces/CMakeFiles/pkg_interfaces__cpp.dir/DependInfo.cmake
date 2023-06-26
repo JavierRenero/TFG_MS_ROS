@@ -8,6 +8,7 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__builder.hpp" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp"
   "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__struct.hpp" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp"
   "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp"
+  "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp" "/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp"
   )
 
 

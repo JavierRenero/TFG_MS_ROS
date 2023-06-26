@@ -18,6 +18,8 @@
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__builder.hpp
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__struct.hpp
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__traits.hpp
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__type_support.hpp
+/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/include/pkg_interfaces/msg/detail/batterylvl__rosidl_typesupport_introspection_cpp.hpp
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.sh
 /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/install/pkg_interfaces/share/pkg_interfaces/environment/pythonpath.dsv

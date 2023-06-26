@@ -4,6 +4,3 @@ source;share/ms_sub/hook/pythonpath.sh
 source;share/ms_sub/hook/ament_prefix_path.ps1
 source;share/ms_sub/hook/ament_prefix_path.dsv
 source;share/ms_sub/hook/ament_prefix_path.sh
-source;../../build/ms_sub/share/ms_sub/hook/pythonpath_develop.ps1
-source;../../build/ms_sub/share/ms_sub/hook/pythonpath_develop.dsv
-source;../../build/ms_sub/share/ms_sub/hook/pythonpath_develop.sh

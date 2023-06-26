@@ -57,6 +57,8 @@ CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/batteryl
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__builder.hpp
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__struct.hpp
 CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp
+CMakeFiles/pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -64,16 +66,20 @@ rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/lib/python
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__builder.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__struct.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/action__type_support.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/idl__type_support.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/msg__type_support.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: /opt/ros/foxy/share/rosidl_generator_cpp/resource/srv__type_support.hpp.em
 rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp: rosidl_adapter/pkg_interfaces/msg/Batterylvl.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/build/pkg_interfaces/rosidl_generator_cpp__arguments.json
@@ -87,11 +93,15 @@ rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__struct.hpp: rosidl_ge
 rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp: rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp
 
+rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp: rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp
+
 pkg_interfaces__cpp: CMakeFiles/pkg_interfaces__cpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/batterylvl.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__builder.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__struct.hpp
 pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__traits.hpp
+pkg_interfaces__cpp: rosidl_generator_cpp/pkg_interfaces/msg/detail/batterylvl__type_support.hpp
 pkg_interfaces__cpp: CMakeFiles/pkg_interfaces__cpp.dir/build.make
 
 .PHONY : pkg_interfaces__cpp

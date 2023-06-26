@@ -7,5 +7,6 @@
 #include "pkg_interfaces/msg/detail/batterylvl__struct.hpp"
 #include "pkg_interfaces/msg/detail/batterylvl__builder.hpp"
 #include "pkg_interfaces/msg/detail/batterylvl__traits.hpp"
+#include "pkg_interfaces/msg/detail/batterylvl__type_support.hpp"
 
 #endif  // PKG_INTERFACES__MSG__BATTERYLVL_HPP_
