@@ -25,13 +25,20 @@ services:
     #   - TURTLEBOT3_MODEL=waffle_pi
     environment:
       - DISPLAY=$DISPLAY
+      - TERM=$TERM
+      - QT_X11_NO_MITSHM=1
       - XAUTHORITY=/tmp/.docker.xauth
-      - X11_NO_MITSHM=1
       - TURTLEBOT3_MODEL=waffle_pi
+    volumes:
+      - /tmp/.docker.xauth:/tmp/.docker.xauth
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    runtime: nvidia
+    devices:
+      - /dev/dri:/dev/dri
+    command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
     networks:
       - my_network
-    command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
-
+   
   ms_autocontrol: 
     # build:
     #   context: ./Docker
@@ -85,8 +92,8 @@ services:
       - ms_autocontrol
     ports:
       - 5000:5000
-
 networks:
   my_network:
     driver: bridge
     
+
