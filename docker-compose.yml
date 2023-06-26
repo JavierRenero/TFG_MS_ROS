@@ -23,6 +23,11 @@ services:
     #   - DISPLAY=host.docker.internal:0.0
     #   - LIBGL_ALWAYS_INDIRECT=0
     #   - TURTLEBOT3_MODEL=waffle_pi
+    environment:
+      - DISPLAY=$DISPLAY
+      - XAUTHORITY=/tmp/.docker.xauth
+      - X11_NO_MITSHM=1
+      - TURTLEBOT3_MODEL=waffle_pi
     networks:
       - my_network
     command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
