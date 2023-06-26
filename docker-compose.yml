@@ -18,11 +18,16 @@ services:
     # build:
     #   context: ./Docker
     #   dockerfile: Dockerfile
+    # WINDOWS INICIO
     # !! En caso de ejecutarlo en windows descomentar las siguientes lineas
     # environment:
     #   - DISPLAY=host.docker.internal:0.0
     #   - LIBGL_ALWAYS_INDIRECT=0
     #   - TURTLEBOT3_MODEL=waffle_pi
+    # WINDOWS FIN
+    
+    # LINUX Y MACOS INICIO
+    # Recuerde mirar el archivo README.md y la memoria del TFG, para configurar correctamente el docker y generar todos los archivos corectamente
     environment:
       - DISPLAY=$DISPLAY
       - TERM=$TERM
@@ -35,6 +40,7 @@ services:
     runtime: nvidia
     devices:
       - /dev/dri:/dev/dri
+    # LINUX Y MACOS FIN
     command: ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
     networks:
       - my_network
