@@ -56,7 +56,7 @@ func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
 
 	req, err := http.Get(urlWithParams)
 	if err != nil {
-		http.Error(w, err.Error()+"PEPE", http.StatusInternalServerError)
+		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
 	defer req.Body.Close()
