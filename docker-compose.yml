@@ -37,7 +37,6 @@ services:
     volumes:
       - /tmp/.docker.xauth:/tmp/.docker.xauth
       - /tmp/.X11-unix:/tmp/.X11-unix
-    runtime: nvidia
     devices:
       - /dev/dri:/dev/dri
     # LINUX Y MACOS FIN
