@@ -26,7 +26,6 @@ services:
     #   - LIBGL_ALWAYS_INDIRECT=0
     #   - TURTLEBOT3_MODEL=waffle_pi
     # WINDOWS FIN
-
     # LINUX Y MACOS INICIO
     # Recuerde mirar el archivo README.md y la memoria del TFG, para configurar correctamente el docker y generar todos los archivos corectamente
     environment:
