@@ -56,6 +56,7 @@ Indicado en el código  por unos comentarios, es decir comentar o descomentar lo
 
 
 Una vez tengamos la configuración correcta solo haria falta ejecutar:
+
 ***LINUX***
 ```shell
 sudo docker compose up
