@@ -63,6 +63,7 @@ Una vez tengamos la configuración correcta solo haria falta ejecutar:
 
 ***LINUX***
 ```shell
+xauth nlist $DISPLAY | sed -e 's/^..../ffff/' | xauth -f /tmp/.docker.xauth nmerge -
 sudo docker compose up
 ```
 ***WINDOWS***
