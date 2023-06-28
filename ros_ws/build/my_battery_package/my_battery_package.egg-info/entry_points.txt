@@ -1,4 +1,0 @@
-[console_scripts]
-battery_publisher = my_battery_package.battery_publisher:main
-battery_subscriber = my_battery_package.battery_subscriber:main
-

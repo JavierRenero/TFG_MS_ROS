@@ -1,1 +1,0 @@
-/home/triqui/Documents/TFG/TFG_MS_ROS/ros_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp
