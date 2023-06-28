@@ -29,12 +29,15 @@ ros2 run ms_sub battery_subscriber
 ```shell
 ros2 run ms_sub odom_suscriber
 ```
-Por ultimo en la carpeta `cd <path_of_repo_save_dest>/MS_ROS_V0.1` ejecutamos:
+Por ultimo en la carpeta `cd <path_of_repo_save_dest>/MS_ROS_V0.1` ejecutamos la api:
 
 ```shell
 go run main.go
 ```
-
+Para saber los endpoints:
+```shell
+curl --location 'http://127.0.0.1:8080/discover'
+```
 ## Ejecutar proyecto (Docker)
 
 - Instalar vcxsrv (Windows)
