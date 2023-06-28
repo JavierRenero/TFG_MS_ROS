@@ -5,7 +5,7 @@ El Proyecto esta divido en tres partes, que son las diferentes carpetas dentro d
 Las dos últimas carpetas son el codigo del proyecto, "MS_ROS_V0.1" es donde se encuentra la API que gestiona las llamadas al backend que se la redirige a cada microservicio, que se encuentran en "ros_ws" se trata de un workspace de ROS2 y acontinuación veremos como ejecutar los microservicios.
 
 ## Ejecutar proyecto (Local)
-Es necesario tener instalado ROS2 (recomendado foxy pero vale cualquier versión de ROS2)
+Es necesario tener instalado ROS2 (recomendado humble pero vale cualquier versión de ROS2), para poder ejcutarlo se necesita compilarlos con `colcon build`.
 Para cada uno de los comandos se ejecutan en diferentes terminales y para cada terminal abierta situarse en `cd <path_of_repo_save_dest>/ros_ws` y tambien ejecutar `source install/setup.sh`
 
 **1. Esto sirve para lanzar gazebo es decir la simulación del robot.**
