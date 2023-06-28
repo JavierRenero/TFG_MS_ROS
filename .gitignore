@@ -23,9 +23,9 @@ go.work
 *.json
 /ros_ws/build
 /ros_ws/install
-/ros_ws/logs
+/ros_ws/log
 ./ros_ws/build
 ./ros_ws/install
-./ros_ws/logs
+./ros_ws/log
 Docker/src/install/ros_entrypoint.sh
 run_docker.bash
