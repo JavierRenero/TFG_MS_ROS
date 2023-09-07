@@ -48,6 +48,11 @@ func (a *API) getBattery(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
+	if params.IdRob == "" {
+		http.Error(w, "No idRobot, So publiser will not be found", http.StatusBadRequest)
+		return
+
+	}
 	// Set up the HTTP request to send to the ROS 2 micro-service
 	url := "http://127.0.0.1:5000/battery"
 	// Create the complete URL with the query parameter
@@ -113,7 +118,11 @@ func (a *API) getOdom(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusBadRequest)
 		return
 	}
+	if params.IdRob == "" {
+		http.Error(w, "No idRobot, So publiser will not be found", http.StatusBadRequest)
+		return
 
+	}
 	// Set up the HTTP request to send to the ROS 2 micro-service
 	url := "http://127.0.0.1:5001/odom"
 	// Create the complete URL with the query parameter
